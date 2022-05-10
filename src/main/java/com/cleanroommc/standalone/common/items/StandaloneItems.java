@@ -17,6 +17,7 @@ public class StandaloneItems {
 
     public static final ItemTravelStaff TRAVEL_STAFF = register("travel_staff", new ItemTravelStaff(100_000));
     public static final Item ENDER_CRYSTAL = register("ender_crystal", new StandaloneItem(new StandaloneItem.ItemSettings().creativeTab(CreativeTabs.MATERIALS).translationKey("ender_crystal")));
+    public static final ItemYeeter YEETER = register("yeeter", new ItemYeeter());
 
     @Nonnull
     private static <T extends StandaloneItem> T register(@Nonnull String id, @Nonnull T item) {
